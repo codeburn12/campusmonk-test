@@ -1,0 +1,141 @@
+/* Global css for Component */
+
+* {
+    background-color: #F2F2F2;
+    color: #252525;
+}
+
+/* Header section elements */
+.container {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 16rem;
+}
+
+.header {
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading {
+    font-weight: 600;
+    font-size: 3.5rem;
+}
+
+.description {
+    width: 43rem;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2.04rem;
+    position: relative;
+    top: -3rem;
+    color: rgba(37, 37, 37, 0.8);
+}
+
+button {
+    width: 11.375rem;
+    height: 4.125rem;
+    border: none;
+    background-color: #252525;
+    color: #ffffff;
+    padding: 1.2rem 3rem;
+    border-radius: 2.25rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    position: relative;
+    top: -3rem;
+}
+
+/* Hero section elements */
+
+.desc {
+    position: relative;
+    margin-bottom: 25rem;
+}
+
+.content {
+    padding: 0 10rem;
+    position: relative;
+    z-index: 1;
+}
+
+.title-content {
+    border-radius: 3rem;
+    text-align: start;
+    padding: 2rem 4rem;
+    background-color: #ffffff;
+}
+
+.title {
+    border-radius: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 5rem;
+    line-height: 0.5rem;
+    background-color: #ffffff;
+}
+
+.item-container {
+    background-color: #ffffff;
+}
+
+.item-title {
+    font-weight: 600;
+    font-size: 1.2rem;
+    background-color: #ffffff;
+
+}
+
+.horizontal-line {
+    height: 0.25rem;
+    width: 3.3rem;
+    background-color: black;
+}
+
+.item-about {
+    line-height: 1.5rem;
+    background-color: #ffffff;
+    color: rgba(37, 37, 37, 0.7);
+}
+
+.image1 {
+    border-radius: 1.5rem;
+    position: absolute;
+    top: 5rem;
+    left: 1.5rem;
+    z-index: -1;
+    object-fit: cover;
+}
+
+/* All Images element */
+
+.image-container {
+    height: 978px;
+    padding: 2rem;
+    padding-top: 3rem;
+}
+
+.images {
+    display: flex;
+    gap: 2.5rem;
+}
+
+.image{
+    display: flex;
+    flex-direction: column;
+    gap: 2.2rem;
+    width: 411px;
+    border: none;
+    border-radius: 2rem;
+}
+.image img {
+    border-radius: 2rem;
+    object-fit: cover;
+}
